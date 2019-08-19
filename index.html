@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Calculadora de Churrasco</h1>
+    </div>
+  </header>
+  <div class="container">
+    <p class="txt">Preencha os dados abaixo para obter uma sugestão estimada com a quantidade de alguns itens para o churrasco.</p>
+  </div>
+  <div class="container">
+    <form>
+      <div class="row">
+        <div class="box-wrapper">
+          <h2>Homens</h2>
+          <input class="person-input" type="number" min="0" name="men" id="men" value="0" onkeypress="return isNumberKey(event)">
+        </div>
+      </div>
+      <div class="row">
+        <div class="box-wrapper">
+          <h2>Mulheres</h2>
+          <input class="person-input" type="number" min="0" name="women" id="women" value="0" onkeypress="return isNumberKey(event)">
+        </div>
+      </div>
+      <div class="row">
+        <div class="box-wrapper">
+          <h2>Crianças</h2>
+          <input class="person-input" type="number" min="0" name="kids" id="kids" value="0" onkeypress="return isNumberKey(event)">
+        </div>
+      </div>
+      <div class="row">
+        <div class="box-wrapper">
+          <h2>Quantas pessoas bebem?</h2>
+          <input class="person-input" type="number" min="0" name="drunk" id="drunk" value="0" onkeypress="return isNumberKey(event)">
+        </div>
+      </div>
+      <div class="row">
+        <button type="submit" id="calc">Calcular</button>
+      </div>
+    </form>
+
+    <div id="result">
+    </div>
+  </div>
+  <footer>
+    <p>Mateus Martos</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
