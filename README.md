@@ -20,7 +20,8 @@ Pessoas que bebem: 3 cervejas
 
 ### Refrigerante
 Homens e Mulheres: 2L  
-Crianças: 1L
+Crianças: 1L  
+-1L por pessoa que bebe
 
 ### Água
 0.5L por pessoa (independente se é H, M ou C)
